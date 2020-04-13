@@ -1,0 +1,27 @@
+/** {
+  border: 1px solid red;
+}*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-top: 30px;
+  /*font-size: 2vw;*/
+  /*line-height: 1.42857143;*/
+  /*margin-top: 20px;*/
+}
+
+#title {
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+}

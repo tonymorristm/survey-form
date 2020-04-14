@@ -12,13 +12,33 @@
     <p id="description">Let us know how we can improve our freeCodeCamp</p>
 
     <form action="" id="survey-form">
-      <label>*Name</label>
-      <label>*Email</label>
-      <label>*Age</label>
+      <label id="name-label">*Name</label>
       <br>
-      <input type="text" name="Name" placeholder="Enter your name" required>
-      <input type="text" name="Email" placeholder="Enter your email" required>
-      <input type="text" name="Age" placeholder="Enter your age" required>
+      <input type="text" name="Name" placeholder="Enter your name" required id="name">
+      <br>
+      <label id="email-label">*Email</label>
+      <br>
+      <input type="email" name="Email" placeholder="Enter your email" required id="email">
+      <br>
+      <label id="number-label">*Age (optional)</label>
+      <br>
+      <input type="number" name="Age" placeholder="Enter your age" id="number" min="0" max="100">
+      <br>
+      <label for="role">What is your current role:</label>
+      <br>
+      <select id="dropdown" placeholder="Select current role">
+        
+        <option value="one">Student</option>
+        <option value="two">Full Time Job</option>
+        <option value="three">Full Time Learner</option>
+        <option value="four">Prefer not to say</option>
+        <option value="five">Other</option>
+      </select>
+     <br>  
+      <input type="radio" name="radio">Would you reccomend FCC to friend? 
+      <label for "yes">Yes</label>
+
+      
     </form>
 
     

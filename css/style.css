@@ -11,6 +11,8 @@ html {
 }
 
 body {
+  background-image:
+      url("../images/dark.png");
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   margin-top: 30px;
   /*font-size: 2vw;*/
@@ -24,4 +26,33 @@ body {
 
 #description {
   text-align: center;
+}
+
+
+/* copied from TM Tribute Page CSS */
+
+
+
+section {
+  background-color: #ccc;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 16px;
+  border: 4px solid #5fc3c5;
+  padding: 20px;
+}
+
+
+.section {
+  background-color: #bebebe;
+  margin: 0 auto;
+  /*width: 100%;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  padding-left: 15px;
+  padding-right: 15px;
 }

@@ -9,23 +9,25 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
-
+    
     <div id="main">
       <section>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve this platform</p>
+      </section>
+      <div id="form">
 
     <form action="" id="survey-form">
 <!-- Name Info - input -->
-      <label id="name-label">*Name</label>
+      <label id="name-label">Name</label>
       <br>
       <input type="text" name="Name" placeholder="Enter your name" required id="name"><br>
       <br>
-      <label id="email-label">*Email</label>
+      <label id="email-label">Email</label>
       <br>
       <input type="email" name="Email" placeholder="Enter your email" required id="email"><br>
       <br>
-      <label id="number-label">*Age (optional)</label>
+      <label id="number-label">Age (optional)</label>
       <br>
       <input type="number" name="Age" placeholder="Enter your age" id="number" min="0" max="100"><br>
       <br>
@@ -33,7 +35,8 @@
 <!-- Current Role - dropdown -->
       <label for="role">What is your current role:</label>
       <br>
-      <select id="dropdown" placeholder="Select current role">
+      <select id="dropdown">
+        <option value="" selected>Select current role</option>
         <option value="one">Student</option>
         <option value="two">Full Time Job</option>
         <option value="three">Full Time Learner</option>
@@ -43,7 +46,7 @@
      <br>
 
 <!-- Recommendation? - radio -->
-     <label id="recommend">Would you recommend freeCodeCamp to a friend></label><br>
+     <label id="recommend">Would you recommend freeCodeCamp to a friend?</label><br>
     
       <input type="radio" name="recommend" value="definitely"> Definitely <br>
       <br>
@@ -56,6 +59,7 @@
       <label for="role">What is your favorite feature of freeCodeCamp?</label>
       <br>
       <select id="dropdown" placeholder="Select an option">
+        <option value="" selected>Select an option</option>
         <option value="one">Challenges</option>
         <option value="two">Projects</option>
         <option value="three">Community</option>
@@ -98,7 +102,7 @@
       <button type="submit" id="submit">Submit</button>
 
     </form>
-  </section>
+  </div><!-- form -->
    </div><!-- main -->
     
    
